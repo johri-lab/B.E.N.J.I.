@@ -44,7 +44,7 @@ reminder = str()
 # Creating the graphical user interface
 
 speak = pyttsx3.init()
-
+search_pc = ("","")
 
 def events(frame, put,link):
     identity_keywords = ["who are you", "who r u", "what is your name"]
